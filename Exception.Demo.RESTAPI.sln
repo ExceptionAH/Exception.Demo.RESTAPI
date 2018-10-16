@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Tests", "0.Tests", "{49885EA2-CBAD-4F7F-A79F-52EAECC57681}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Repositories", "1.Repositories", "{2846ED85-7ECA-493E-A795-A1333ECBEA35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.API", "2.API", "{971661BD-37C9-436C-B8E2-7907CEE9C057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception.Demo.RESTAPI.API", "Exception.Demo.RESTAPI\Exception.Demo.RESTAPI.API\Exception.Demo.RESTAPI.API.csproj", "{943909C3-22AD-4D29-91F8-A8536A855951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception.Demo.RESTAPI.API.Common", "Exception.Demo.RESTAPI\Exception.Demo.RESTAPI.API.Common\Exception.Demo.RESTAPI.API.Common.csproj", "{3D86592D-EB94-495F-83DF-B582185B73D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception.Demo.RESTAPI.API.DataContracts", "Exception.Demo.RESTAPI\Exception.Demo.RESTAPI.API.DataContracts\Exception.Demo.RESTAPI.API.DataContracts.csproj", "{8AA1204C-D3B4-48C7-B9A7-B1872825A6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception.Demo.RESTAPI.IoC.Configuration", "Exception.Demo.RESTAPI\Exception.Demo.RESTAPI.IoC.Configuration\Exception.Demo.RESTAPI.IoC.Configuration.csproj", "{C4892B3D-EC4A-46BD-86C3-907DE8863E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception.Demo.RESTAPI.Services", "Exception.Demo.RESTAPI\Exception.Demo.RESTAPI.Services\Exception.Demo.RESTAPI.Services.csproj", "{28E98B62-0C52-49A5-8E40-FAD941A2EB13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{943909C3-22AD-4D29-91F8-A8536A855951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943909C3-22AD-4D29-91F8-A8536A855951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943909C3-22AD-4D29-91F8-A8536A855951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943909C3-22AD-4D29-91F8-A8536A855951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D86592D-EB94-495F-83DF-B582185B73D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D86592D-EB94-495F-83DF-B582185B73D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D86592D-EB94-495F-83DF-B582185B73D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D86592D-EB94-495F-83DF-B582185B73D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA1204C-D3B4-48C7-B9A7-B1872825A6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA1204C-D3B4-48C7-B9A7-B1872825A6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA1204C-D3B4-48C7-B9A7-B1872825A6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA1204C-D3B4-48C7-B9A7-B1872825A6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4892B3D-EC4A-46BD-86C3-907DE8863E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4892B3D-EC4A-46BD-86C3-907DE8863E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4892B3D-EC4A-46BD-86C3-907DE8863E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4892B3D-EC4A-46BD-86C3-907DE8863E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E98B62-0C52-49A5-8E40-FAD941A2EB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E98B62-0C52-49A5-8E40-FAD941A2EB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E98B62-0C52-49A5-8E40-FAD941A2EB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E98B62-0C52-49A5-8E40-FAD941A2EB13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{943909C3-22AD-4D29-91F8-A8536A855951} = {971661BD-37C9-436C-B8E2-7907CEE9C057}
+		{3D86592D-EB94-495F-83DF-B582185B73D7} = {971661BD-37C9-436C-B8E2-7907CEE9C057}
+		{8AA1204C-D3B4-48C7-B9A7-B1872825A6E4} = {971661BD-37C9-436C-B8E2-7907CEE9C057}
+		{C4892B3D-EC4A-46BD-86C3-907DE8863E11} = {971661BD-37C9-436C-B8E2-7907CEE9C057}
+		{28E98B62-0C52-49A5-8E40-FAD941A2EB13} = {971661BD-37C9-436C-B8E2-7907CEE9C057}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE0EBA9C-F4BB-413C-A633-AAFC1070B8D7}
+	EndGlobalSection
+EndGlobal
